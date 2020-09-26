@@ -64,6 +64,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Script\Haiti.cs" />
+    <Compile Include="Assets\Script\Kaihou.cs" />
     <Compile Include="Assets\Script\Kaisetu.cs" />
     <Compile Include="Assets\Script\Title Back.cs" />
     <Reference Include="UnityEngine">
