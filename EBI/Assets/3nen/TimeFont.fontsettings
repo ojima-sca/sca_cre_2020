@@ -22,10 +22,10 @@ Font:
     index: 0
     uv:
       serializedVersion: 2
-      x: 0.25
+      x: -0.05
       y: 0.5
-      width: 0.25
-      height: 0.25
+      width: 0.2
+      height: 0.5
     vert:
       serializedVersion: 2
       x: 0
@@ -39,8 +39,8 @@ Font:
     uv:
       serializedVersion: 2
       x: 0.15
-      y: 0.6
-      width: 0.25
+      y: 0.5
+      width: 0.2
       height: 0.5
     vert:
       serializedVersion: 2
@@ -54,9 +54,9 @@ Font:
     index: 2
     uv:
       serializedVersion: 2
-      x: 0.4
+      x: 0.37
       y: 0.5
-      width: 0.15
+      width: 0.2
       height: 0.5
     vert:
       serializedVersion: 2
@@ -70,9 +70,9 @@ Font:
     index: 3
     uv:
       serializedVersion: 2
-      x: 0.55
+      x: 0.6
       y: 0.5
-      width: 0.25
+      width: 0.2
       height: 0.5
     vert:
       serializedVersion: 2
@@ -86,10 +86,10 @@ Font:
     index: 4
     uv:
       serializedVersion: 2
-      x: 1.25
-      y: 1.25
-      width: 0.25
-      height: 0.25
+      x: 0.82
+      y: 0.5
+      width: 0.2
+      height: 0.5
     vert:
       serializedVersion: 2
       x: 0
@@ -102,8 +102,8 @@ Font:
     index: 5
     uv:
       serializedVersion: 2
-      x: 0
-      y: 0
+      x: -0.05
+      y: -0.03
       width: 0.2
       height: 0.5
     vert:
@@ -118,10 +118,10 @@ Font:
     index: 6
     uv:
       serializedVersion: 2
-      x: 0.25
-      y: 0.25
-      width: 0.25
-      height: 0.25
+      x: 0.15
+      y: -0.03
+      width: 0.2
+      height: 0.5
     vert:
       serializedVersion: 2
       x: 0
@@ -134,10 +134,10 @@ Font:
     index: 7
     uv:
       serializedVersion: 2
-      x: 0.5
-      y: 0.5
-      width: 0.25
-      height: 0.25
+      x: 0.37
+      y: -0.03
+      width: 0.2
+      height: 0.5
     vert:
       serializedVersion: 2
       x: 0
@@ -150,10 +150,10 @@ Font:
     index: 8
     uv:
       serializedVersion: 2
-      x: 0.75
-      y: 0.75
-      width: 0.25
-      height: 0.25
+      x: 0.6
+      y: -0.03
+      width: 0.2
+      height: 0.5
     vert:
       serializedVersion: 2
       x: 0
@@ -166,10 +166,10 @@ Font:
     index: 9
     uv:
       serializedVersion: 2
-      x: 1
-      y: 1
-      width: 0.25
-      height: 0.25
+      x: 0.82
+      y: -0.03
+      width: 0.2
+      height: 0.5
     vert:
       serializedVersion: 2
       x: 0

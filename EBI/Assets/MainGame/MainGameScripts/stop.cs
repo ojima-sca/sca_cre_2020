@@ -20,7 +20,8 @@ public class stop : MonoBehaviour
     void Start()
     {
         pause = false;
-       
+        gameObject.SetActive(false);
+        Invoke("Stop_Button",0.1f);
     }
 
     // Update is called once per frame
@@ -33,5 +34,9 @@ public class stop : MonoBehaviour
     public bool GetPause()
     {
         return pause;
+    }
+    private void Stop_Button()
+    {
+        gameObject.SetActive(true);
     }
 }
