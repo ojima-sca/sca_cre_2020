@@ -6,21 +6,21 @@ using UnityEngine.UI;
 public class Kaisetu : MonoBehaviour
 {
     //解説画像の変数化
-    [SerializeField] GameObject pirafukaisetu;
-    [SerializeField] GameObject pizakaisetu;
-    [SerializeField] GameObject pasutakaisetu;
-    [SerializeField] GameObject susikaisetu;
-    [SerializeField] GameObject syurinnpukaisetu;
-    [SerializeField] GameObject ebifuraikaisetu;
-    [SerializeField] GameObject tenndonnkaisetu;
-    [SerializeField] GameObject kusikaisetu;
-    [SerializeField] GameObject guratannkaisetu;
-    [SerializeField] GameObject paeriakaisetu;
-    [SerializeField] GameObject ebitennkaisetu;
-    [SerializeField] GameObject sasimikaisetu;
-    [SerializeField] GameObject saradakaisetu;
-    [SerializeField] GameObject kyodaiebikaisetu;
-    [SerializeField] GameObject gurirukaisetu;
+    [SerializeField] private GameObject pirafukaisetu;
+    [SerializeField] private GameObject pizakaisetu;
+    [SerializeField] private GameObject pasutakaisetu;
+    [SerializeField] private GameObject susikaisetu;
+    [SerializeField] private GameObject syurinnpukaisetu;
+    [SerializeField] private GameObject ebifuraikaisetu;
+    [SerializeField] private GameObject tenndonnkaisetu;
+    [SerializeField] private GameObject kusikaisetu;
+    [SerializeField] private GameObject guratannkaisetu;
+    [SerializeField] private GameObject paeriakaisetu;
+    [SerializeField] private GameObject ebitennkaisetu;
+    [SerializeField] private GameObject sasimikaisetu;
+    [SerializeField] private GameObject saradakaisetu;
+    [SerializeField] private GameObject kyodaiebikaisetu;
+    [SerializeField] private GameObject gurirukaisetu;
 
     [SerializeField] GameObject modoru;
 
