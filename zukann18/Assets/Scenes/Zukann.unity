@@ -351,7 +351,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1746418529}
+      - m_Target: {fileID: 225431874}
         m_MethodName: SlectkyodaiebiDescription
         m_Mode: 1
         m_Arguments:
@@ -840,7 +840,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1746418529}
+      - m_Target: {fileID: 225431874}
         m_MethodName: SlectsaradaDescription
         m_Mode: 1
         m_Arguments:
@@ -1140,7 +1140,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1746418529}
+      - m_Target: {fileID: 225431874}
         m_MethodName: SlectsasimiDescription
         m_Mode: 1
         m_Arguments:
@@ -1199,8 +1199,8 @@ GameObject:
   - component: {fileID: 225431869}
   - component: {fileID: 225431871}
   - component: {fileID: 225431870}
+  - component: {fileID: 225431874}
   - component: {fileID: 225431872}
-  - component: {fileID: 225431873}
   m_Layer: 5
   m_Name: Content
   m_TagString: Untagged
@@ -1289,12 +1289,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 225431868}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1cff4bbb80709e848995c403179cfdfa, type: 3}
+  m_Script: {fileID: 11500000, guid: 2153013dda1872d428eb0f7e72a72dd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  contentRectTransform: {fileID: 0}
-  button: {fileID: 0}
---- !u!114 &225431873
+--- !u!114 &225431874
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1303,9 +1301,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 225431868}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b2b839e1ad369a049b8211c16c828aeb, type: 3}
+  m_Script: {fileID: 11500000, guid: 43e4340cb98679b46a403e2546d10aca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pirafukaisetu: {fileID: 252899498}
+  pizakaisetu: {fileID: 470060243}
+  pasutakaisetu: {fileID: 971047078}
+  susikaisetu: {fileID: 793933577}
+  syurinnpukaisetu: {fileID: 1778781802}
+  ebifuraikaisetu: {fileID: 2103801437}
+  tenndonnkaisetu: {fileID: 1548530292}
+  kusikaisetu: {fileID: 425232805}
+  guratannkaisetu: {fileID: 1134850811}
+  paeriakaisetu: {fileID: 1111231029}
+  ebitennkaisetu: {fileID: 1553428163}
+  sasimikaisetu: {fileID: 870353022}
+  saradakaisetu: {fileID: 1968753020}
+  kyodaiebikaisetu: {fileID: 1793054422}
+  gurirukaisetu: {fileID: 831281173}
+  modoru: {fileID: 385135730}
 --- !u!1 &235441559
 GameObject:
   m_ObjectHideFlags: 0
@@ -1536,7 +1550,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1746418529}
+      - m_Target: {fileID: 225431874}
         m_MethodName: SlectsusiDescription
         m_Mode: 1
         m_Arguments:
@@ -1618,8 +1632,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -8.699979, y: -42.109985}
-  m_SizeDelta: {x: 166.98404, y: 110.746216}
+  m_AnchoredPosition: {x: -5.3, y: -47.14}
+  m_SizeDelta: {x: 166.98404, y: 151.77861}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &300419992
 MonoBehaviour:
@@ -1692,8 +1706,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.42000002, y: 0.4875}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.43367, y: -57.92}
-  m_SizeDelta: {x: 114.132614, y: 57.826973}
+  m_AnchoredPosition: {x: -5.9, y: -65.1}
+  m_SizeDelta: {x: 121.01424, y: 58.40043}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &301403683
 MonoBehaviour:
@@ -1896,7 +1910,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1746418529}
+      - m_Target: {fileID: 225431874}
         m_MethodName: SlectpizaDescription
         m_Mode: 1
         m_Arguments:
@@ -2025,7 +2039,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1746418529}
+      - m_Target: {fileID: 225431874}
         m_MethodName: BackToMenu
         m_Mode: 1
         m_Arguments:
@@ -2303,7 +2317,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1746418529}
+      - m_Target: {fileID: 225431874}
         m_MethodName: SlectebitennDescription
         m_Mode: 1
         m_Arguments:
@@ -2459,7 +2473,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.42000002, y: 0.4875}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1.2038879, y: -48.337708}
+  m_AnchoredPosition: {x: -0.33902, y: -58.7}
   m_SizeDelta: {x: 115.67804, y: 31.216476}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &471873484
@@ -2613,8 +2627,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -184.99, y: -90.389}
-  m_SizeDelta: {x: -673.14636, y: -268.003}
+  m_AnchoredPosition: {x: -184.4, y: -89.338}
+  m_SizeDelta: {x: -673.14624, y: -250.86095}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &525649158
 MonoBehaviour:
@@ -2818,7 +2832,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1746418529}
+      - m_Target: {fileID: 225431874}
         m_MethodName: SlectpaeriaDescription
         m_Mode: 1
         m_Arguments:
@@ -2974,7 +2988,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.42000002, y: 0.4875}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 5.1960144, y: -48.337708}
+  m_AnchoredPosition: {x: 4.6, y: -58.7}
   m_SizeDelta: {x: 115.67804, y: 31.216476}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &578896968
@@ -3232,7 +3246,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.42000002, y: 0.4875}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 14.038, y: -50}
+  m_AnchoredPosition: {x: 8.3, y: -60.3}
   m_SizeDelta: {x: 124.676956, y: 57.088295}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &603956504
@@ -3310,8 +3324,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1.3699646, y: -42.4}
-  m_SizeDelta: {x: 185.03897, y: 114.62077}
+  m_AnchoredPosition: {x: -6.5, y: -40.69}
+  m_SizeDelta: {x: 195.29709, y: 118.040115}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &647025172
 MonoBehaviour:
@@ -3460,7 +3474,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -57.71, y: 138.72}
+  m_AnchoredPosition: {x: -55.703, y: 137.86493}
   m_SizeDelta: {x: -645.7334, y: -256.84076}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &654661840
@@ -3536,7 +3550,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 309.88, y: 143.89}
+  m_AnchoredPosition: {x: 312.11002, y: 148.53491}
   m_SizeDelta: {x: -657.31934, y: -247.33987}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &660610093
@@ -3662,6 +3676,7 @@ GameObject:
   - component: {fileID: 713616732}
   - component: {fileID: 713616731}
   - component: {fileID: 713616730}
+  - component: {fileID: 713616733}
   m_Layer: 5
   m_Name: Title
   m_TagString: Untagged
@@ -3731,12 +3746,12 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: 
+      - m_Target: {fileID: 713616733}
+        m_MethodName: OnClickTitleBottomn
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -3779,6 +3794,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 713616728}
   m_CullTransparentMesh: 0
+--- !u!114 &713616733
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 713616728}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f589efc8262fb0e4d888126420a67480, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &779343917
 GameObject:
   m_ObjectHideFlags: 0
@@ -4050,8 +4077,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.00012207031, y: -187.09998}
-  m_SizeDelta: {x: 0.00036621094, y: -374.26227}
+  m_AnchoredPosition: {x: 0.00012207031, y: -191.11}
+  m_SizeDelta: {x: 0.00036621094, y: -382.29086}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &821846718
 MonoBehaviour:
@@ -4246,7 +4273,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1746418529}
+      - m_Target: {fileID: 225431874}
         m_MethodName: SlectkusiDescription
         m_Mode: 1
         m_Arguments:
@@ -4478,8 +4505,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -184.99, y: 143.89}
-  m_SizeDelta: {x: -645.7334, y: -256.84076}
+  m_AnchoredPosition: {x: -180.73, y: 148.5349}
+  m_SizeDelta: {x: -630.00433, y: -256.84076}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &899656739
 MonoBehaviour:
@@ -4554,8 +4581,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 320.33, y: 11.426}
-  m_SizeDelta: {x: -666.5546, y: -256.84076}
+  m_AnchoredPosition: {x: 316.73004, y: 11.676933}
+  m_SizeDelta: {x: -666.5546, y: -253.73883}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &905578060
 MonoBehaviour:
@@ -4750,7 +4777,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1746418529}
+      - m_Target: {fileID: 225431874}
         m_MethodName: SlectpasutaDescription
         m_Mode: 1
         m_Arguments:
@@ -5506,8 +5533,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.42000002, y: 0.4875}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 3.6, y: -58.89}
-  m_SizeDelta: {x: 114.93419, y: 48.325928}
+  m_AnchoredPosition: {x: 4.6, y: -61.8}
+  m_SizeDelta: {x: 114.93419, y: 60.94226}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1171598929
 MonoBehaviour:
@@ -5586,7 +5613,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 70.069, y: -96.567}
+  m_AnchoredPosition: {x: 66.469025, y: -97.0451}
   m_SizeDelta: {x: -656.6985, y: -280.35858}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1307920128
@@ -5708,7 +5735,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1746418529}
+      - m_Target: {fileID: 225431874}
         m_MethodName: SlectguratannDescription
         m_Mode: 1
         m_Arguments:
@@ -5990,7 +6017,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1746418529}
+      - m_Target: {fileID: 225431874}
         m_MethodName: SlectebifuraiDescription
         m_Mode: 1
         m_Arguments:
@@ -6148,7 +6175,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 70.069, y: 138.72}
+  m_AnchoredPosition: {x: 71.952, y: 137.86491}
   m_SizeDelta: {x: -645.7334, y: -256.84076}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1450360277
@@ -6224,7 +6251,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 188.3, y: 143.89}
+  m_AnchoredPosition: {x: 184.70003, y: 148.53491}
   m_SizeDelta: {x: -669.3793, y: -261.5908}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1483808845
@@ -6298,8 +6325,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 6.870041, y: -32.880005}
-  m_SizeDelta: {x: 164.36401, y: 168.15662}
+  m_AnchoredPosition: {x: 6.5, y: -41.39}
+  m_SizeDelta: {x: 177.3576, y: 179.78244}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1530880424
 MonoBehaviour:
@@ -6494,7 +6521,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1746418529}
+      - m_Target: {fileID: 225431874}
         m_MethodName: SlecttenndonnDescription
         m_Mode: 1
         m_Arguments:
@@ -6846,7 +6873,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1746418529}
+      - m_Target: {fileID: 225431874}
         m_MethodName: SlectsyurinnpuDescription
         m_Mode: 1
         m_Arguments:
@@ -6930,7 +6957,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -184.99, y: 28.5}
+  m_AnchoredPosition: {x: -188.59003, y: 28.446037}
   m_SizeDelta: {x: -645.7346, y: -282.26263}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1628458710
@@ -7006,7 +7033,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 188.3, y: -105.54}
+  m_AnchoredPosition: {x: 189.29, y: -100.56509}
   m_SizeDelta: {x: -618.5402, y: -273.31586}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1634939442
@@ -7160,7 +7187,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -57.713, y: -93.165}
+  m_AnchoredPosition: {x: -61.31299, y: -93.64508}
   m_SizeDelta: {x: -672.29987, y: -273.55518}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1645598725
@@ -7236,7 +7263,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 315.4, y: -100.46}
+  m_AnchoredPosition: {x: 311.80002, y: -100.56509}
   m_SizeDelta: {x: -646.2816, y: -250.86107}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1647844902
@@ -7310,8 +7337,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000014782, y: -31.709991}
-  m_SizeDelta: {x: 188.02536, y: 106.42621}
+  m_AnchoredPosition: {x: -0.000014782, y: -41.97}
+  m_SizeDelta: {x: 188.02536, y: 126.9424}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1660103782
 MonoBehaviour:
@@ -7581,9 +7608,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1746418528}
-  - component: {fileID: 1746418527}
-  - component: {fileID: 1746418529}
   - component: {fileID: 1746418530}
+  - component: {fileID: 1746418527}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -7600,11 +7626,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1746418526}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1cff4bbb80709e848995c403179cfdfa, type: 3}
+  m_Script: {fileID: 11500000, guid: 37dd7cd86f38a6542a8487c2b35136f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  contentRectTransform: {fileID: 225431869}
-  button: {fileID: 0}
 --- !u!4 &1746418528
 Transform:
   m_ObjectHideFlags: 0
@@ -7619,34 +7643,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1746418529
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1746418526}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 915ce6b098101e14495a836160f595b2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pirafukaisetu: {fileID: 252899498}
-  pizakaisetu: {fileID: 470060243}
-  pasutakaisetu: {fileID: 971047078}
-  susikaisetu: {fileID: 793933577}
-  syurinnpukaisetu: {fileID: 1778781802}
-  ebifuraikaisetu: {fileID: 2103801437}
-  tenndonnkaisetu: {fileID: 1548530292}
-  kusikaisetu: {fileID: 425232805}
-  guratannkaisetu: {fileID: 1134850811}
-  paeriakaisetu: {fileID: 1111231029}
-  ebitennkaisetu: {fileID: 1553428163}
-  sasimikaisetu: {fileID: 870353022}
-  saradakaisetu: {fileID: 1968753020}
-  kyodaiebikaisetu: {fileID: 1793054422}
-  gurirukaisetu: {fileID: 831281173}
-  modoru: {fileID: 385135730}
 --- !u!82 &1746418530
 AudioSource:
   m_ObjectHideFlags: 0
@@ -7779,7 +7775,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -57.71, y: 31.948}
+  m_AnchoredPosition: {x: -61.31299, y: 24.86493}
   m_SizeDelta: {x: -656.95416, y: -280.11487}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1750913923
@@ -7927,7 +7923,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.42000002, y: 0.4875}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.00001335144, y: -50}
+  m_AnchoredPosition: {x: -0.00001335144, y: -57.5}
   m_SizeDelta: {x: 158.42299, y: 32.341324}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1777190010
@@ -8079,7 +8075,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.42000002, y: 0.4875}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -3, y: -53}
+  m_AnchoredPosition: {x: 0.00001335144, y: -55.9}
   m_SizeDelta: {x: 115.67804, y: 31.216476}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1780835652
@@ -8685,7 +8681,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 192.88998, y: 17.299982}
+  m_AnchoredPosition: {x: 197, y: 16}
   m_SizeDelta: {x: -668.5353, y: -268.58917}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2043260011
@@ -8853,7 +8849,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1746418529}
+      - m_Target: {fileID: 225431874}
         m_MethodName: SlectebipirafuDescription
         m_Mode: 1
         m_Arguments:
@@ -8957,8 +8953,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 66.544, y: 17.3}
-  m_SizeDelta: {x: -652.7825, y: -268.58917}
+  m_AnchoredPosition: {x: 60, y: 16}
+  m_SizeDelta: {x: -646.94525, y: -268.58936}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2097384666
 MonoBehaviour:
@@ -9153,7 +9149,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1746418529}
+      - m_Target: {fileID: 225431874}
         m_MethodName: SlectguriruDescription
         m_Mode: 1
         m_Arguments:
